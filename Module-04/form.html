@@ -5,17 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pitha Ghor</title>
-<style>
-    form .basic-info label{
-        display: block;
-        margin-bottom: 10px;
-    }
-</style>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        form .basic-info label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-
+        <nav>
+            <ul>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="center.html">Center</a></li>
+                <li><a href="Flex.html">Flex</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="Table.html">Table</a></li>
+                <li><a href="Video.html">Video</a></li>
+                <li><a href="nav.html">nav</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
@@ -25,10 +36,10 @@
                     <legend>Basic Info</legend>
 
                     <label for="name">Your Name :</label>
-                <input type="text"name="" id="name">
+                    <input type="text" name="" id="name">
 
-                <label for="email">Your Email :</label>
-                <input type="email" name="" id="email"  required>
+                    <label for="email">Your Email :</label>
+                    <input type="email" name="" id="email" required>
                 </fieldset>
 
                 <fieldset>
@@ -61,7 +72,8 @@
                 <fieldset>
                     <legend>Extra Info </legend>
 
-                    <textarea name="extra" id="extra" cols="30" rows="10" placeholder="Write your extra info here..."></textarea>
+                    <textarea name="extra" id="extra" cols="30" rows="10"
+                        placeholder="Write your extra info here..."></textarea>
                 </fieldset>
 
                 <input type="submit" value="Submit">
