@@ -232,8 +232,161 @@
     margin-bottom: 20px;
 }
 
+.gift-portfolio {
+    max-width: 1320px;
+    height: 1163px;
+    margin: 90px auto;
+    margin-top: 600px;
+}
+.gift-content h3 {
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 10px;
+}
+.gift-content H1 {
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+.gift-content p {
+    font-size: 20px;
+    color: #070211;
+    margin-bottom: 10px;
+    font-weight: 400;
+    max-width: 896px;
+}
+
+.gift-image {
+    margin-top: 30px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.subscribe {
+    max-width: 1320px;
+    height: 616px;
+    margin: 50px auto;
+    background-color: #fff3f2;
+    border-radius: 10px;
+    
+}
+
+.subscribe-content {
+    text-align: center;
+    padding: 80px 212px;
+}
+.subscribe-content img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+.subscribe-content h1 {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.subscribe-content p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 896px;
+}
 
 
+.form-email {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+    }
+
+    .form-email input[type="email"] {
+      padding: 25px 30px;
+      width: 348px;
+      border: none;
+      border-radius: 35px 0 0 35px;
+      font-size: 18px;
+      background-color: white;
+      color: #333;
+    }
+
+    .form-email button {
+      padding: 25px 30px;
+      border: none;
+      width: 210px;
+      background-color: #FF0000;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 35px 35px 0;
+      cursor: pointer;
+    }
+
+    .form-email button:hover {
+      background-color: #cc0000;
+    }
+
+    .footer-section {
+        max-width: 1600px;
+        height: 609px;
+        background-color: #070211;
+        margin: 0px auto;
+        margin-top: 70px;
+    }
+    
+    .footer-content {
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 206px;
+        padding-top: 120px;
+        margin-bottom: 50px;
+    }
+    .footer-content .f1 {
+        font-size: 24px;
+        line-height: 40px;  
+    }
+
+     .call {
+        display: flex;
+        gap: 8px;
+        font-size: 24px;
+        margin-bottom: 6px;
+     }
+     .web {
+        font-size: 24px;
+        color: #FFFFFF;
+        display: flex;
+        gap: 8px;
+     }
+
+    hr {
+        max-width: 1320px;
+        margin: 30px auto;
+    }
+
+    .footer-icon {
+        text-align: center;        
+    }
+    .footer-icon img {
+        margin: 15px 10px;       
+    }
+
+    .footer-reserve {
+         color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-bottom: 120px;
+        margin-top: 50px;
+    }
+
+    .l1, .l2 {
+        font-size: 24px;
+    }
 
 
 
