@@ -13,37 +13,36 @@
 
 /* banar style */
 .banner {
-    background-image: url('../images-t/Banner\ Image.png');
-    /* width: auto;
-    height: auto; */
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin: 50px 140px;
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('../images-t/Banner\ Image.png');
+    max-width: 1320px;
+    height: 600px;
+    margin: 50px auto;
     border-radius: 16px;
-    background-position: center;
-
+    background-repeat: no-repeat;
 }
 
 .banner-content {
-    padding: 177px 344px;
+    text-align: center;
+    padding: 127px 344px;
 }
 
 .banner-content h1 {
     font-size: 72px;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.434);
     text-align: center;
+    font-weight: 900;
 }
 
-.banner-content h5 {
+.banner-content h2 {
     font-size: 32px;
     color: #FFFFFF;
     text-align: center;
+    font-weight: 600;
 }
 
 .happy-new-year {
+    margin: 0px 399px;
     text-align: center;
-    margin-left: 399px;
-    margin-right: 399px;
 }
 
 .discount-content h1 {
@@ -63,145 +62,179 @@
 .discount-content h3 {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 48px;
+    margin-bottom: 38px;
 }
 
 
 .party {
-    background-image: url('../images-t/Vectorrr.png');
-     /* width: 100%;
-    height: auto; */
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('../images-t/Vectorrr.png');
+    max-width: 1320px;
+    height: 600px;
+    margin: 70px auto;
     background-repeat: no-repeat;
-    background-size: auto;
-    margin: 50px 140px;
     border-radius: 16px;
-    background-position: center;
-    
-}
-.party-container {
     display: flex;
-  align-items: center;
-  padding:177px 124px;
+    align-items: center;
+    justify-content: space-between;
+
 }
+
+.party-content {
+    padding-left: 138px;
+}
+
 .party-content h1 {
     font-size: 64px;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
+
 .party-content p {
     font-size: 18px;
     color: #FFFFFF;
     text-align: left;
     margin-bottom: 30px;
-    
+
 }
+
 .party-content h3 {
- color: #FFFFFF;
-font-size: 20px;
-font-weight: bold;
- margin-left: 100px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.party-img {
+    padding-right: 138px;
 }
 
 
- .event-box {
-      height: 300px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(to bottom, #ffe5e5, #ffffff); /* light red to white */
-      text-align: center;
-      margin: 0px 125px;
-    }
-
-    .event-box h3 {
-      margin: 10px 0;
-      font-size: 20px;
-    }
-
-    .event-box span {
-      font-weight: bold;
-      color: red;
-    }
-
-    .join-button {
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: red;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-
-    .join-button:hover {
-      background-color: darkred;
-    }
-
-    .coming-soon {
-        margin: 50px 140px;
-    }
-    .parent {
-        display: flex;
-        justify-content: space-around;
-        text-align: left;
-    }
-    .p1 .pa {
-        color: #FF0000;
-        font-size: 24px;
-    }
-    .p1 h1 {
-        font-size: 48px;
-        color: #070211;
-        
-    }
-    .p1 p {
-        font-size: 20px;
-        color: #070211;
-    }
-    .p1 {
-        padding-right: 50px;
-    }
-    .p2 {
-        margin-left: 20PX;
-        margin-right: 20px;
-        width: 364PX;
-        height: 364PX;
-    }
-    .p3 h1 {
-        font-size: 48px;
-        font-weight: bold;
-        color: #FF0000;
-        margin-bottom: 16px;
-    }
-    .p3 p {
-        font-size: 20px;
-        color: #070211;
-        margin-bottom: 20px;
-    }
-    .p3 {
-        padding-left: 50px;
-    }
-    .fun {
-        font-size: 24px;
-        color: #070211;
-        text-align: center;
-    }
-.holiday-content H1 {
-    font-size: 72px;
+.event-box {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffe5e5, #ffffff);
+    /* light red to white */
     text-align: center;
+    max-width: 1320px;
+    height: 482px;
+    margin: 50px auto;
+}
+
+.event-box h3 {
+    margin: 10px 0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.event-box span {
+    font-weight: bold;
+    color: red;
+}
+
+.join-button {
+    margin-top: 34px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.join-button:hover {
+    background-color: darkred;
+}
+
+.coming-soon {
+    max-width: 1320px;
+    height: 463px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.p1 .pa {
+    color: #FF0000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.p1 h1 {
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 15px;
+
+}
+
+.p1 p {
+    font-size: 20px;
+    color: #070211;
+}
+
+.p1 {
+    max-width: 393px;
+}
+
+.p2 {
+    max-width: 463PX;
+    height: 463PX;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.p2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.p3 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.p3 p {
+    font-size: 20px;
+    color: #070211;
+    margin-bottom: 30px;
+}
+
+
+.Holidays {
+    max-width: 1320px;
+    height: 600px;
+    margin: 130px auto;
+}
+.holiday-content {
+    max-width: 1068px;
+    padding: 0px 252px;
+
 }
 .holiday-content p {
     font-size: 20px;
     text-align: center;
     color: #070211;
-}
-.holiday-content {
-    padding: 124px;
+    margin-bottom: 10px;
 }
 
-.Holidays {
-    margin: 0px 140px;
+.holiday-content H1 {
+    font-size: 72px;
+    text-align: center;
+    margin-bottom: 20px;
 }
+
+
+
+
+
+
 
