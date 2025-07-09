@@ -101,9 +101,7 @@ font-size: 20px;
 font-weight: bold;
  margin-left: 100px;
 }
-.party-img img{
-    /* margin-right: 154px; */
-}
+
 
  .event-box {
       height: 300px;
@@ -185,3 +183,25 @@ font-weight: bold;
     .p3 {
         padding-left: 50px;
     }
+    .fun {
+        font-size: 24px;
+        color: #070211;
+        text-align: center;
+    }
+.holiday-content H1 {
+    font-size: 72px;
+    text-align: center;
+}
+.holiday-content p {
+    font-size: 20px;
+    text-align: center;
+    color: #070211;
+}
+.holiday-content {
+    padding: 124px;
+}
+
+.Holidays {
+    margin: 0px 140px;
+}
+
