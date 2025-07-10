@@ -3,7 +3,7 @@
     padding: 0;
 }
 
- /* font-family style */
+/* font-family style */
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -13,11 +13,11 @@
 }
 
 .open-sans-inter {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* banar style */
@@ -229,20 +229,26 @@ Holiddays styles  */
 
 .Holidays {
     max-width: 1320px;
-    height: 600px;
+    height: 986.07px;
     margin: 130px auto;
+    /* display: flex;
+    flex-direction: column; */
 }
+
 .holiday-content {
     max-width: 1068px;
+    height: 260px;
     padding: 0px 252px;
 
 }
+
 .holiday-content p {
     font-size: 20px;
     text-align: center;
     color: rgba(7, 2, 17, 0.607);
     margin-bottom: 10px;
 }
+
 .holiday-content h6 {
     font-size: 24px;
     color: #070211;
@@ -256,25 +262,42 @@ Holiddays styles  */
     margin-bottom: 20px;
 }
 
+.pic-content {
+    background-image: url("../images-t/Rectangle\ 2.png");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 64px auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.pic-content, .c44 {
+  /* position: absolute; */
+  margin-bottom: 200px;
+}
+
+
 /* gift-content styles */
 
 .gift-portfolio {
     max-width: 1320px;
     height: 1163px;
-    margin: 90px auto;
-    margin-top: 600px;
+    margin: 50px auto;
 }
+
 .gift-content h3 {
     font-size: 24px;
     color: #FF0000;
     margin-bottom: 10px;
 }
+
 .gift-content H1 {
     font-size: 48px;
     color: #070211;
     margin-bottom: 10px;
     font-weight: 900;
 }
+
 .gift-content p {
     font-size: 20px;
     color: rgba(7, 2, 17, 0.603);
@@ -298,24 +321,27 @@ Holiddays styles  */
     margin: 50px auto;
     background-color: #fff3f2;
     border-radius: 10px;
-    
+
 }
 
 .subscribe-content {
     text-align: center;
     padding: 80px 212px;
 }
+
 .subscribe-content img {
     width: 150px;
     height: 150px;
     margin-bottom: 40px;
 }
+
 .subscribe-content h1 {
     font-size: 40px;
     font-weight: 900;
     text-align: center;
     margin-bottom: 22px;
 }
+
 .subscribe-content p {
     font-size: 20px;
     font-weight: 400;
@@ -326,101 +352,101 @@ Holiddays styles  */
 
 
 .form-email {
-      display: flex;
-      justify-content: center;
-      gap: 0;
-    }
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
 
-    .form-email input[type="email"] {
-      padding: 25px 30px;
-      width: 348px;
-      border: none;
-      border-radius: 35px 0 0 35px;
-      font-size: 18px;
-      background-color: white;
-      color: rgba(51, 51, 51, 0.321);
-    }
+.form-email input[type="email"] {
+    padding: 25px 30px;
+    width: 348px;
+    border: none;
+    border-radius: 35px 0 0 35px;
+    font-size: 18px;
+    background-color: white;
+    color: rgba(51, 51, 51, 0.321);
+}
 
-    .form-email button {
-      padding: 25px 30px;
-      border: none;
-      width: 210px;
-      background-color: #FF0000;
-      color: white;
-      font-weight: 600;
-      font-size: 20px;
-      border-radius: 0 35px 35px 0;
-      cursor: pointer;
-    }
+.form-email button {
+    padding: 25px 30px;
+    border: none;
+    width: 210px;
+    background-color: #FF0000;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 0 35px 35px 0;
+    cursor: pointer;
+}
 
-    .form-email button:hover {
-      background-color: #cc0000;
-    }
-
-
-    /* footer section style */
-
-    
-    .footer-section {
-        max-width: 1600px;
-        height: 609px;
-        background-color: #070211;
-        margin: 0px auto;
-        margin-top: 70px;
-    }
-    
-    .footer-content {
-        color: #FFFFFF;
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 206px;
-        padding-top: 120px;
-        margin-bottom: 50px;
-    }
-    .footer-content .f1 {
-        font-size: 24px;
-        line-height: 40px;  
-    }
-
-     .call {
-        display: flex;
-        gap: 8px;
-        font-size: 24px;
-        margin-bottom: 6px;
-     }
-     .web {
-        font-size: 24px;
-        color: #FFFFFF;
-        display: flex;
-        gap: 8px;
-     }
-
-    hr {
-        max-width: 1320px;
-        margin: 30px auto;
-    }
-
-    .footer-icon {
-        text-align: center;        
-    }
-    .footer-icon img {
-        margin: 15px 10px;       
-    }
-
-    .footer-reserve {
-         color: #FFFFFF;
-        display: flex;
-        justify-content: space-between;
-        margin-left: 140px;
-        margin-right: 140px;
-        margin-bottom: 120px;
-        margin-top: 50px;
-    }
-
-    .l1, .l2 {
-        font-size: 24px;
-    }
+.form-email button:hover {
+    background-color: #cc0000;
+}
 
 
+/* footer section style */
 
 
+.footer-section {
+    width: 100%;
+    height: 609px;
+    background-color: #070211;
+    margin: 0px auto;
+    margin-top: 90px;
+}
+
+.footer-content {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 206px;
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+
+.footer-content .f1 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.call {
+    display: flex;
+    gap: 8px;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.web {
+    font-size: 24px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 8px;
+}
+
+hr {
+    max-width: 1320px;
+    margin: 30px auto;
+}
+
+.footer-icon {
+    text-align: center;
+}
+
+.footer-icon img {
+    margin: 15px 10px;
+}
+
+.footer-reserve {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 120px;
+    margin-top: 50px;
+}
+
+.l1,
+.l2 {
+    font-size: 24px;
+}
