@@ -318,3 +318,58 @@ header {
         align-items: center;
         margin: 0px auto;
     }
+
+    .news {
+        max-width: 1280px;
+        margin: 0px auto;
+    }
+    .news h1{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .news p {
+        font-size: 16px;
+        color: rgba(14, 14, 14, 0.7);
+    }
+    .news-content {
+        margin-bottom: 32px;
+    }
+
+    .news-card {
+        display: flex;
+        gap: 32px;
+        background-color: #F5F5F5;
+        border-radius: 24px;
+        padding: 48px;
+    }
+    .news-card img {
+        border-radius: 24px;
+
+    }
+    .news-card-con h1{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .news-card-con p {
+        font-size: 16px;
+        font-weight: bold;
+        color: rgba(14, 14, 14, 0.7);
+        margin: 15px 0px;
+    }
+    .news-card-con button {
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 8px;
+        color: #FFFFFF;
+        background-color: #006a50;
+        padding: 13px 26px;
+        margin-top: 40px;
+        border: none;
+    }
+
+    .news-caed-container {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
