@@ -34,8 +34,10 @@ body {
 }
 
 .btn:hover {
-    background-color: #0d9356;
+    background: linear-gradient(to right, #232526, #414345); 
     cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(56, 49, 49, 0.504);
 }
 
 /* .......banner section styles..... */
