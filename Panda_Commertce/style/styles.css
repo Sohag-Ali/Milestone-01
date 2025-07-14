@@ -27,7 +27,11 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 49px 160px;
+    margin: 49px auto;
+    max-width: 1280px;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 .search-parent {
@@ -113,6 +117,7 @@ nav {
 
 .catagories {
     margin: 64px auto;
+    padding:0px 50px;
 }
 
 .catagories h2 {
@@ -175,7 +180,7 @@ nav {
 }
 .shoes {
     background-color: rgb(244, 244, 244);
-    padding: 50px 0px;
+    padding: 50px 50px;
 }
 .hii {
      background-color: rgb(244, 244, 244);
