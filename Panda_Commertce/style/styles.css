@@ -34,6 +34,33 @@ nav {
 
 }
 
+.prosuct-li {
+    position: relative;
+}
+
+.dropdown-nav-items {
+    position: absolute;
+    top: 30%;
+    left: -30px;
+    padding: 5px 0px;
+    text-align: center;
+    list-style: none;
+    background-color: antiquewhite;
+    width: 130px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 5px 39px 0px rgba(81, 43, 43, 0.69);
+    -webkit-box-shadow: 1px 1px 11px 0px rgba(81, 43, 43, 0.69);
+    -moz-box-shadow: 0px 5px 39px 0px rgba(81, 43, 43, 0.69);
+    visibility: hidden; 
+    
+}
+
+.prosuct-li:hover .dropdown-nav-items {
+    visibility: visible;
+    top: 100%;
+    transition: 0.5s;
+}
+
 .search-parent {
     position: relative;
 }
@@ -117,7 +144,7 @@ nav {
 
 .catagories {
     margin: 64px auto;
-    padding:0px 50px;
+    padding: 0px 50px;
 }
 
 .catagories h2 {
@@ -164,26 +191,30 @@ nav {
 }
 
 
-.shoes-con{
+.shoes-con {
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
 }
-.shoes-con  h2{
+
+.shoes-con h2 {
     font-size: 36px;
     font-weight: 600px;
 }
-.shoes-con p{
+
+.shoes-con p {
     font-size: 20px;
     font-weight: 500px;
     color: rgb(255, 157, 0);
 }
+
 .shoes {
     background-color: rgb(244, 244, 244);
     padding: 50px 50px;
 }
+
 .hii {
-     background-color: rgb(244, 244, 244);
+    background-color: rgb(244, 244, 244);
 }
 
 .shoes-card-container {
@@ -204,7 +235,7 @@ nav {
     font-weight: 600;
     display: block;
     margin-bottom: 22px;
-    
+
 }
 
 .shoe-card h2 {
@@ -220,30 +251,34 @@ nav {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 22px;
-    
+
 }
+
 .shoe-card .panda-btn {
     background: black;
 }
 
 .shoe-card {
-   
+
     height: 532px;
     padding: 24px;
     background-color: white;
     text-align: center;
     border-radius: 16px;
     flex: 1;
+    box-shadow: 0px 5px 39px 0px rgba(81, 43, 43, 0.69);
+    -webkit-box-shadow: 1px 1px 11px 0px rgba(81, 43, 43, 0.69);
+    -moz-box-shadow: 0px 5px 39px 0px rgba(81, 43, 43, 0.69);
 }
 
 
 .footer {
     margin-top: 75px;
     margin-bottom: 75px;
-    background-color:rgb(255, 242, 241);
+    background-color: rgb(255, 242, 241);
     border-radius: 16px;
-    padding: 146px 265px;   
-    text-align: center; 
+    padding: 146px 265px;
+    text-align: center;
 }
 
 .footer h2 {
@@ -251,21 +286,23 @@ nav {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 20px;
-    
+
 }
+
 .footer p {
 
     font-size: 16px;
     font-weight: 500;
     color: #707070;
     margin-bottom: 20px;
-    
+
 }
+
 .inpu-p input {
     border: none;
     padding: 15px 152px 15px 35px;
     text-align: left;
-   
+
     color: #CCCCCC;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
@@ -276,6 +313,7 @@ nav {
     display: flex;
     justify-content: center;
 }
+
 .inpu-p .panda-btn {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
