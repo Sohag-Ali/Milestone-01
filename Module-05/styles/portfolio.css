@@ -205,7 +205,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 }
 
 @media screen and (max-width: 576px) {
-    .skills-container {
+    .skills-container, footer, .about-items {
         flex-direction: column;
     }
      .resume-container {
@@ -213,9 +213,8 @@ footer input[type="text"], footer input[type="email"], footer textarea{
         align-items: center;
         text-align: center;
     }
- footer{
-    padding: 0px;
-     flex-direction: column;
+ footer, .about{
+    padding: 20px;
 
 }
 .foot-column {
